@@ -1,6 +1,7 @@
-#container {
-	width: 800;
+#container1 {
+	width: 1200px;
 	margin: 0 auto;
+	border: 2px black solid;
 }
 
 header {
@@ -22,6 +23,7 @@ nav {
 .navlink {
 	text-decoration: none;
 	color: black;
+	font-family: helvetica;
 }
 
 .navlink:hover {
@@ -34,4 +36,37 @@ nav {
 	height: 5%;
 	padding-left: 40px;
 	padding-top: 10px;
+}
+
+#container2 {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin: 100px;
+	clear: both;
+	border: 2px black solid;
+}
+
+#curproj {
+	font-size: 26px;
+	font-family: Helvetica;
+
+}
+
+#zerok {
+	width: 50%;
+	height: auto;
+}
+
+#container3 {
+	width: 350px;
+	height: 300px;
+	float: right;
+	margin: 100px;
+	border: 2px black solid;
+}
+
+#nw {
+	font-size: 26px;
+	font-family: Helvetica;
 }
