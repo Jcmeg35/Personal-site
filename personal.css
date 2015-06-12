@@ -1,50 +1,75 @@
-#container1 {
-	width: 1200px;
-	margin: 0 auto;
-	border: 2px black solid;
+#master-container {
+	width: 100%;
+	height: auto;
 }
 
 header {
 	text-align: center;	
-	font-size: 36px;
-	padding-top: 20px;
+	font-size: 20px;
+	padding-top: 8px;
 	font-family: Helvetica;
 }
 
 nav {
-	text-align: center;
 	word-spacing: 30px;
 	font-family: Helvetica;
-	padding-top: 10px;
-	padding-right: 40px;
-	float: right;
+	display: inline-block;
+	font-size: 18px;
+	width: 100%;
+	color: black;
+	border: 1px solid green;
+	margin-left: 60%;
 }
 
-.navlink {
-	text-decoration: none;
+ul.navlink li {
 	color: black;
 	font-family: helvetica;
+	padding-bottom: 15px;
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;	
+	border: 3px solid black;
+	
 }
 
-.navlink:hover {
+ul.navlink a {
+	text-decoration: none;
+	color: black;
+	border: 3px solid black;
+	display: inline-block;
+}
+
+ul.navlink a:hover {
 	color: #000080;
+}
+
+#logo {
+	display: inline-block;
+	float: left;
+	border: 1px solid red;
 }
 
 #jlogo {
 	float: left;
-	width: 5%;
-	height: 5%;
-	padding-left: 40px;
-	padding-top: 10px;
+	width: 40%;
+	height: auto;
+	border: 3px solid black;
+	box-sizing: border-box;
+	padding-left: 30px;
+	
+}
+
+body {
+	font-family: helvetica;
 }
 
 #container2 {
-	width: 350px;
-	height: 300px;
+	width: 33%;
+	height: auto;
 	float: left;
-	margin: 100px;
-	clear: both;
-	border: 2px black solid;
+	box-sizing: border-box;
+	padding-left: 175px;
+
 }
 
 #curproj {
@@ -59,14 +84,36 @@ nav {
 }
 
 #container3 {
-	width: 350px;
-	height: 300px;
-	float: right;
-	margin: 100px;
-	border: 2px black solid;
+	width: 33%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 175px;
 }
 
-#nw {
+#np {
 	font-size: 26px;
 	font-family: Helvetica;
 }
+
+#container4 {
+	width: 33%;
+	height: auto;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 100px;
+}
+
+#blog-content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
